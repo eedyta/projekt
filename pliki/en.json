@@ -1,0 +1,50 @@
+{
+  "menu_mercury": "MERCURY",
+  "menu_venus": "VENUS",
+  "menu_earth": "EARTH",
+  "menu_mars": "MARS",
+  "menu_jupiter": "JUPITER",
+  "menu_saturn": "SATURN",
+  "menu_uranus": "URANUS",
+  "menu_neptune": "NEPTUNE",
+
+  "info_mercury": "MERCURY",
+  "info_venus": "VENUS",
+  "info_earth": "EARTH",
+  "info_mars": "MARS",
+  "info_jupiter": "JUPITER",
+  "info_saturn": "SATURN",
+  "info_uranus": "URANUS",
+  "info_neptune": "NEPTUNE",
+
+  "who_first_in_space": "WHO WAS THE FIRST IN SPACE?",
+  "gagarin": "yuri gagarin - soviet cosmonaut, the first man in space (1961), hero of the soviet union, cosmonaut pilot of the ussr.",
+  "who_first_on_moon": "WHO WAS THE FIRST ON THE MOON?",
+  "armstrong": "neil armstrong, an american astronaut, was the first man to set foot on the moon on july 20, 1969. he was the commander of the apollo 11 mission.",
+  "how_many_poles_in_space": "HOW MANY POLES WERE IN SPACE?",
+  "hermaszewski": "in 1978, on board the soyuz-30 crewed spacecraft, the first and so far only polish astronaut, mirosław hermaszewski, flew.",
+  "galeria": "GALLERY",
+  "zdj1": "astronaut",
+  "zdj2": "photo of the galaxy from the Hubble telescope",
+  "zdj3": "man in the moon",
+  "zdj4": "milky way",
+  "zdj5": "view of the earth from the moon",
+  "zdj6": "nebula",
+  "zdj7": "the moon close up",
+
+  "opis1": "The smallest and closest planet in the solar system. As an inferior planet, it is always close to the Sun for an Earth observer, so it is difficult to observe. Nevertheless, it is one of the planets visible to the naked eye and has been known since ancient times. Mercury can only be seen just before sunrise or just after sunset. Mercury's surface is similar to the Moon: it has numerous impact craters and has no atmosphere. The surface temperature ranges from −173 °C to 427 °C.",
+  "opis2": "The second planet in the solar system in terms of distance from the Sun. It is the third brightest celestial body visible in the sky, after the Sun and the Moon. Its observed magnitude reaches −4.6 m. Because Venus is closer to the Sun than Earth, it is always visible at a small angular distance from it, its maximum elongation is 47.8°C. The distance of Venus from Earth varies from about 40 million km to about 259 million km.",
+  "opis3": "The third planet from the Sun and the fifth largest planet in the Solar System. In terms of diameter, mass and density, it is the largest rocky planet in the solar system. The planet formed about 4.54 billion years ago. Earth is the only known place in the Universe where life exists and is inhabited by millions of species, including humans. Life appeared in the oceans within the first billion years after the Earth formed.",
+  "opis4": "The fourth planet from the Sun in the solar system. It orbits between Earth's orbit and the asteroid belt separating it from Jupiter's orbit. The planet was named after the Roman god of war - Mars, due to its color, which appears rusty-red when observed from Earth and was associated by the ancient Romans with the conflagration of war. This shade comes from iron oxides covering the surface.",
+  "opis5": "A gas giant, the largest planet in the solar system. The fifth planet from the Sun. Jupiter's mass is slightly less than one thousandth the mass of the Sun, but two and a half times greater than the combined mass of the other planets in the solar system. Together with Saturn, Uranus and Neptune, they form a group of gas giants, sometimes also called the Jovian planets. The planet was known to astronomers in ancient times and was associated with the mythology and religious beliefs of many cultures.",
+  "opis6": "A gas giant, the sixth planet from the Sun in the Solar System, second after Jupiter in mass and size. Its characteristic feature are very distinct rings, consisting mainly of ice and a smaller amount of rock fragments; other giant planets also have ring systems, but none are as vast or as bright. As of May 2023, there were 146 known natural satellites of Saturn, the most among the planets.",
+  "opis7": "A gas giant, the seventh planet from the Sun in the Solar System, the third largest in size and fourth in mass. The name of the planet comes from Uranus, the Greek god, the personification of the sky, the father of Kronos and the grandfather of Zeus. Although visible to the naked eye like the five other planets, it escaped the attention of ancient observers because of its low brightness and slow movement across the celestial sphere.",
+  "opis8": "A gas giant, the eighth and farthest planet from the Sun in the Solar System, the fourth in terms of diameter and the third in terms of mass. Neptune is over 17 times more massive than Earth and more massive than its 'twin' Uranus, which has a mass almost 15 times that of Earth. It orbits the Sun at a distance about 30 times greater than the Earth-Sun distance. The name comes from the Roman god of the seas, Neptune. Its astronomical symbol is the stylized trident of Neptune.",
+
+  "info": "This website uses cookies. By using it, you agree to their use.",
+  "przycisk": "Accept"
+
+
+
+}
+    

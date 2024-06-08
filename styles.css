@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #ffffff; 
+    color: #141414;
+}
+
+.container {
+	font-family: 'Karla Thin', sans-serif;
+    width: 100%;
+    
+}
+.language-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-buttons button {
+    margin-right: 2px; /* Zmniejszenie odstępu */
+    padding: 10px 20px;
+    color: white; /* Biały kolor tekstu */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+.language-buttons .separator {
+    color: white; /* Biały kolor pionowej kreski */
+    margin-left: 0.2px; /* Dodatkowy margines między kreską a przyciskami */
+    margin-right: 0.2px;
+}
+
+.language-buttons button:hover {
+    color: #ADD8E6;
+}
+
+
+.full-width-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.full-width-container img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+.center-content {
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+    color: #808080;
+    background-color: #f0f0f0; 
+    padding: 40px; /* Margines wewnętrzny */
+    margin: 40px 70px; /* Większe marginesy zewnętrzne (40px góra/dół, 50px lewo/prawo) */
+    border-radius: 10px; /* Zaokrąglenie rogów, opcjonalnie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień, opcjonalnie */
+    max-width: 1300px; /* Opcjonalnie, maksymalna szerokość elementu */
+    line-height: 1.9; /* Zwiększona interlinia */
+}
+.center-content img {
+    width: 100%; /* Ustawienie szerokości obrazka na 100% */
+    max-width: 100%; /* Dodatkowe zabezpieczenie, aby obrazek nie przekroczył szerokości ekranu */
+}
+.center-content h2 {
+    text-align: center; /* Wyśrodkowanie nagłówka */
+}
+.tekst {
+    text-align: justify; /* Wyjustowanie tekstu */
+    padding: 30px 110px; /* Dodatkowy padding dla tekstu */
+}
+        
+.center-content img {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('tło.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 150px; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+/* Informacja o plikach cookies */
+.cookies-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eaeaeacc;
+    color: hsl(0, 1%, 65%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#przycisk{
+    background-color: #eaeaeacc;
+    border: none;
+    color: #000000;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#przycisk:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ADD8E6; 
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 30px; 
+}
+.menu li h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 20px;
+    font-family: "Karla, sans-serif"; 
+    font-size: 12px; 
+    line-height: 2;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px; 
+    margin-left: 200px; 
+    margin-right: 200px; 
+	margin-bottom: 70px;
+}
+
+.text-block {
+    width: calc(20% - 32px); 
+    margin-right: 16px; 
+}
+
+.text-block p {
+    margin: 0; 
+}
+
+.divider {
+    width: 1px; 
+    background-color: #808080;
+    margin-left: 16px; 
+    margin-right: 16px; 
+}
+.question {
+    color: #808080;
+	font-size: 17px;
+}
+
+.gallery-container {
+    text-align: center; /* Wyśrodkowanie zawartości w poziomie */
+    margin-top: 150px; /* Odstęp od góry */
+}
+
+.gallery-title {
+    font-size: 18px;
+    color: #808080;
+    margin-bottom: 20px;
+	text-align: center;
+
+}
+.gallery {
+    display: flex;
+    overflow-x: auto; /* Dodajemy pasek przewijania poziomego */
+    margin-top: 1px; /* Dodajemy odstęp od poprzedniego elementu */
+	margin-bottom: 80px;
+}
+.gallery img {
+    width: 420px; /* Domyślna szerokość zdjęć */
+    margin: 1px; /* Mniejszy odstęp między zdjęciami */
+    margin-left: 13px;
+    transition: transform 0.3s, width 0.3s; /* Dodajemy efekt przejścia dla transformacji i szerokości */
+}
+
+.gallery img:hover {
+    transform: scale(1.2); /* Po najechaniu na zdjęcie powiększamy je */
+    width: 440px; /* Zwiększamy szerokość zdjęcia */
+    cursor: pointer; /* Zmieniamy kursor na wskaźnik */
+}
+figcaption {
+    margin: 0; /* Usunięcie marginesu dla podpisów */
+    text-align: center; /* Wyrównanie tekstu do środka */
+    font-size: 15px; /* Rozmiar czcionki */
+    color: #808080; /* Kolor tekstu */
+}
+
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Dodajemy półprzezroczyste tło */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.fullscreen img {
+    max-width: 90%; /* Maksymalna szerokość zdjęcia */
+    max-height: 90%; /* Maksymalna wysokość zdjęcia */
+    object-fit: contain; /* Zapewniamy zachowanie proporcji */
+}
+
+/* Dla tabletów i telefonów */
+@media screen and (max-width: 1024px) {
+    .gallery img {
+        width: 250px; /* Dostosowujemy szerokość zdjęć dla mniejszych ekranów */
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gallery img {
+        width: calc(50% - 20px); /* Zmniejszamy szerokość zdjęć dla małych ekranów, aby wyświetlały się obok siebie */
+    }
+}
+/* Istniejące style */
+
+/* Dla desktopów (większe niż 640px) */
+@media screen and (min-width: 641px) {
+    header {
+        height: 300px;
+        /* Dodatkowe style dla nagłówka na desktopach */
+    }
+    .text-section {
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 70px;
+        /* Dodatkowe style dla sekcji tekstu na desktopach */
+    }
+    .text-block {
+        width: calc(20% - 32px);
+        margin-right: 16px;
+        /* Dodatkowe style dla bloków tekstu na desktopach */
+    }
+    .divider {
+        margin-left: 16px;
+        margin-right: 16px;
+        /* Dodatkowe style dla podziałek na desktopach */
+    }
+    .dark-section {
+        padding: 20px;
+        /* Dodatkowe style dla ciemnej sekcji na desktopach */
+    }
+}
+
+/* Dla tabletów (od 640px do 1024px) */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    /* Tutaj mogą być dodatkowe style dla tabletów */
+}
+
+/* Dla telefonów (do 640px) */
+@media screen and (max-width: 640px) {
+    header {
+        height: 300px;
+        /* Dodatkowe style dla nagłówka na telefonach */
+    }
+    .text-section {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        /* Dodatkowe style dla sekcji tekstu na telefonach */
+    }
+    .text-block {
+        width: 100%;
+        padding-bottom: 40px; /* Zwiększamy odstęp między blokiem tekstu a linią oddzielającą */
+        border-bottom: 1px solid navy; /* Dodajemy linię oddzielającą */
+        margin-bottom: 40px; /* Dodajemy odstęp między blokami tekstu */
+    }
+}
+@media screen and (max-width: 640px) {
+    .tekst {
+        padding: 30px 20px; /* Zmniejsz padding dla małych ekranów */
+    }
+}

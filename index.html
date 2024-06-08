@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosmos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="script.js"></script>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#merkury" id="menu_mercury">MERKURY</a></li>
+                    <li><a href="#wenus" id="menu_venus">WENUS</a></li>
+                    <li><a href="#ziemia" id="menu_earth">ZIEMIA</a></li>
+                    <li><a href="#mars" id="menu_mars">MARS</a></li>
+                    <li><a href="#jowisz" id="menu_jupiter">JOWISZ</a></li>
+                    <li><a href="#saturn" id="menu_saturn">SATURN</a></li>
+                    <li><a href="#uran" id="menu_uranus">URAN</a></li>
+                    <li><a href="#neptun" id="menu_neptune">NEPTUN</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="language-buttons">
+            <button onclick="changeLanguage('pl')">PL</button>
+            <span class="separator">|</span>
+            <button onclick="changeLanguage('en')">EN</button>
+        </div>
+
+        <main>
+            <div class="text-section">
+                <div class="text-block">
+                   <p class="question" id="who_first_in_space"><br>KTO BYŁ PIERWSZY W KOSMOSIE?</p><p id="gagarin"><br>
+                    jurij aleksiejewicz gagarin - radziecki kosmonauta,
+                    pierwszy człowiek w przestrzeni kosmicznej (1961), bohater związku radzieckiego, lotnik kosmonauta zsrr.</p>
+
+
+                </div>
+                <div class="divider"></div>
+                <div class="text-block">
+                    <p class="question"  id="who_first_on_moon"><br>KTO BYŁ PIERWSZY NA KSIĘŻYCU?</p><p id="armstrong"><br>
+                        neil armstrong, amerykański astronauta, jako pierwszy człowiek
+                         20 lipca 1969 roku stanął na księżycu. był dowócą misji apollo 11.</p>
+
+                </div>
+                <div class="divider"></div>
+                <div class="text-block">
+                    <p class="question" id="how_many_poles_in_space"><br>ILU POLAKÓW BYŁO W KOSMOSIE?</p><p id="hermaszewski"><br>
+                        w 1978 roku na pokładzie statku załogowego soyuz-30 poleciał pierwszy,
+                         jak dotąd jedyny, polski astronauta – mirosław hermaszewski.</p>
+                </div> 
+            </div>
+
+            <div class="gallery-container"></div>
+			<div class="gallery-title" id="galeria">GALERIA ZDJĘĆ</div>
+            <div class="gallery">
+			<figure>
+				<img src="astronauta.jpg" alt="opis6" style="width:400px;height:300px;">
+				<figcaption id="zdj1">astronauta</figcaption>
+			</figure>
+            <figure>
+            <img src="niebieskie.jpg" alt="opis1" style="width:400px;height:300px;">
+            <figcaption id="zdj2">zdjecie galaktyki z teleskopu hubble'a</figcaption>
+            </figure>
+            <figure>
+				<img src="czlowiek.jpg" alt="opis7" style="width:400px;height:300px;">
+				<figcaption id="zdj3">człowiek na księżycu</figcaption>
+			</figure>
+			<figure>
+				<img src="zdjecie6.jpg" alt="opis2" style="width:400px;height:300px;">
+				<figcaption id="zdj4">droga mleczna</figcaption>
+			</figure>
+            <figure>
+				<img src="ziemiazksiezyca.jpg" alt="opis3" style="width:400px;height:300px;">
+				<figcaption id="zdj5">widok ziemii z księżyca</figcaption>
+			</figure>
+            <figure>
+				<img src="zdjecie5.jpg" alt="opis5" style="width:400px;height:300px;">
+				<figcaption id="zdj6">mgławica</figcaption>
+			</figure>
+			<figure>
+				<img src="kratery.jpeg" alt="opis4" style="width:400px;height:300px;">
+				<figcaption id="zdj7">księżyc z bliska</figcaption>
+			</figure>
+            </div>
+
+
+                <div id="merkury" class="center-content">
+                    <img src="merkury.jpg" alt="opis1" style="width:425px;height:400px;">
+                    <h2 id="info_mercury">MERKURY</h2><div class="tekst" id="opis1">
+                    Najmniejsza i najbliższa Słońca planeta Układu Słonecznego. Jako planeta dolna znajduje się dla ziemskiego obserwatora 
+                    zawsze blisko Słońca, dlatego jest trudna do obserwacji. Mimo to należy do planet widocznych gołym okiem i była znana już w starożytności.
+                     Merkurego dojrzeć można jedynie tuż przed wschodem lub tuż po zachodzie Słońca.
+
+                    Ukształtowanie powierzchni Merkurego przypomina Księżyc: są na nim liczne kratery uderzeniowe i pozbawiony jest on atmosfery.
+                     Temperatura powierzchni waha się od −173 °C do 427 °C. 
+                    </div>
+                    </div>
+
+                <div id="wenus" class="center-content">
+                    <img src="wenus.jpg" alt="opis1" style="width:400px;height:370px;">
+                    <h2 id="info_venus">WENUS</h2><div class="tekst" id="opis2">
+                    Druga pod względem odległości od Słońca planeta Układu Słonecznego.
+                     Jest trzecim pod względem jasności ciałem niebieskim widocznym na niebie, po Słońcu i Księżycu.
+                      Jej obserwowana wielkość gwiazdowa sięga −4,6m. Ponieważ Wenus jest bliżej Słońca niż Ziemia,
+                       zawsze jest widoczna w niewielkiej odległości kątowej od niego;
+                     jej maksymalna elongacja to 47,8°C. Odległość Wenus od Ziemi zmienia się w zakresie od około 40 mln km do około 259 mln km.
+                </div>
+                </div>
+
+                <div id="ziemia" class="center-content">
+                    <img src="ziemia.jpg" alt="opis1" style="width:410px;height:370px;">
+                    <h2 id="info_earth">ZIEMIA</h2><div class="tekst" id="opis3">
+                        Trzecia, licząc od Słońca, oraz piąta pod względem wielkości planeta Układu Słonecznego.
+                         Pod względem średnicy, masy i gęstości jest to największa planeta skalista Układu Słonecznego.
+                          Planeta uformowała się około 4,54 mld lat temu.
+                        Ziemia jest jedynym znanym miejscem we Wszechświecie, w którym występuje życie,
+                         jest zamieszkana przez miliony gatunków, w tym przez człowieka. Życie pojawiło się w oceanach 
+                        w ciągu pierwszego miliarda lat po uformowaniu się Ziemi.
+                    </div>
+                </div>
+
+                <div id="mars" class="center-content">
+                    <img src="mars.jpg" alt="opis1" style="width:450px;height:400px;">
+                    <h2 id="info_mars">MARS</h2><div class="tekst" id="opis4">
+                        Czwarta od Słońca planeta Układu Słonecznego. Krąży między orbitą Ziemi a pasem planetoid, 
+                        dzielącym go od orbity Jowisza. Planeta została nazwana od imienia rzymskiego boga wojny – Marsa,
+                         ze względu na barwę, która przy obserwacji z Ziemi wydaje się rdzawo-czerwona
+                         i kojarzyła się starożytnym Rzymianom z pożogą wojenną. Odcień ten bierze się od tlenków żelaza pokrywających powierzchnię. 
+                    </div> 
+                </div>
+
+                <div id="jowisz" class="center-content">
+                    <img src="jowisz.jpg" alt="opis1" style="width:450px;height:410px;">
+                    <h2 id="info_jupiter">JOWISZ</h2><div class="tekst" id="opis5">
+                    Gazowy olbrzym, największa planeta Układu Słonecznego. Piąta planeta w kolejności od Słońca.
+                     Masa Jowisza jest nieco mniejsza niż jedna tysięczna masy Słońca, a zarazem dwa i pół razy większa niż łączna
+                      masa pozostałych planet w Układzie Słonecznym. Wraz z Saturnem, Uranem i Neptunem tworzą grupę gazowych olbrzymów,
+                       nazywaną czasem również planetami jowiszowymi.
+
+                    Planetę znali astronomowie w czasach starożytnych, była związana z mitologią i wierzeniami religijnymi wielu kultur.
+                </div>
+                </div>
+
+                <div id="saturn" class="center-content">
+                    <img src="saturn.jpg" alt="opis1" style="width:580px;height:350px;">
+                    <h2 id="info_saturn">SATURN</h2><div class="tekst" id="opis6">
+                        Gazowy olbrzym, szósta od Słońca planeta Układu Słonecznego, druga po Jowiszu pod względem masy i wielkości.
+                         Charakterystyczną jego cechą są bardzo wyraźne pierścienie, składające się głównie z lodu i w mniejszej ilości z odłamków 
+                         skalnych; inne planety-olbrzymy także mają systemy pierścieni, ale żaden z nich nie jest tak rozległy
+                         ani tak jasny. W maju 2023 roku znanych było 146 naturalnych satelitów Saturna, najwięcej wśród planet.
+                </div>
+                </div>
+
+                <div id="uran" class="center-content">
+                    <img src="uran.jpg" alt="opis1" style="width:450px;height:400px;">
+                    <h2 id="info_uranus">URAN</h2><div class="tekst" id="opis7">
+                        Gazowy olbrzym, siódma od Słońca planeta Układu Słonecznego, trzecia pod względem wielkości i czwarta pod względem masy.
+                         Nazwa planety pochodzi od Uranosa, greckiego boga, uosobienia nieba, ojca Kronosa
+                          i dziada Zeusa. Choć jest widoczny gołym okiem podobnie jak pięć innych planet, umknął uwadze starożytnych 
+                          obserwatorów z powodu małej jasności i powolnego ruchu po sferze niebieskiej.
+                </div>
+                </div>
+
+                <div id="neptun" class="center-content">
+                    <img src="neptun.jpg" alt="opis1" style="width:420px;height:380px;">
+                    <h2 id="info_neptune">NEPTUN</h2><div class="tekst" id="opis8">
+                    Gazowy olbrzym, ósma, najdalsza od Słońca planeta w Układzie Słonecznym, 
+                    czwarta pod względem średnicy oraz trzecia pod względem masy. Neptun jest ponad 17 razy masywniejszy od Ziemi
+                     i masywniejszy od swojego "bliźniaka" Urana, który ma masę prawie 15 razy większą od masy Ziemi.
+                      Krąży wokół Słońca w odległości około 30 razy większej niż dystans Ziemia-Słońce. Nazwa pochodzi od rzymskiego boga 
+                      mórz Neptuna. Jego symbol astronomiczny to, stylizowany trójząb Neptuna.
+                </div>
+                </div>
+
+
+			
+			</main>
+		</div>
+        
+
+        <!-- Informacja o plikach cookies -->
+        <div class="cookies-info" id="info">
+            Ta strona wykorzystuje pliki cookies. Korzystając z niej, zgadzasz się na ich użycie. 
+            <br><br><button id="przycisk">Akceptuj</button>
+        </div>
+
+        
+
+</body>
+</html>

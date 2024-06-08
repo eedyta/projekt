@@ -1,0 +1,48 @@
+{
+  "menu_mercury": "MERKURY",
+  "menu_venus": "WENUS",
+  "menu_earth": "ZIEMIA",
+  "menu_mars": "MARS",
+  "menu_jupiter": "JOWISZ",
+  "menu_saturn": "SATURN",
+  "menu_uranus": "URAN",
+  "menu_neptune": "NEPTUN",
+
+  "info_mercury": "MERKURY",
+  "info_venus": "WENUS",
+  "info_earth": "ZIEMIA",
+  "info_mars": "MARS",
+  "info_jupiter": "JOWISZ",
+  "info_saturn": "SATURN",
+  "info_uranus": "URAN",
+  "info_neptune": "NEPTUN",
+
+  "who_first_in_space": "KTO BYŁ PIERWSZY W KOSMOSIE?",
+  "gagarin": "jurij aleksiejewicz gagarin - radziecki kosmonauta, pierwszy człowiek w przestrzeni kosmicznej (1961), bohater związku radzieckiego, lotnik kosmonauta zsrr.",
+  "who_first_on_moon": "KTO BYŁ PIERWSZY NA KSIĘŻYCU?",
+  "armstrong": "neil armstrong, amerykański astronauta, jako pierwszy człowiek 20 lipca 1969 roku stanął na księżycu. był dowócą misji apollo 11",
+  "how_many_poles_in_space": "ILU POLAKÓW BYŁO W KOSMOSIE?",
+  "hermaszewski": "w 1978 roku na pokładzie statku załogowego soyuz-30 poleciał pierwszy, jak dotąd jedyny, polski astronauta – mirosław hermaszewski.",
+  "galeria": "GALERIA ZDJĘĆ",
+  "zdj1": "astronauta",
+  "zdj2": "zdjecie galaktyki z teleskopu hubble'a",
+  "zdj3": "człowiek na księżycu",
+  "zdj4": "droga mleczna",
+  "zdj5": "widok ziemii z księżyca",
+  "zdj6": "mgławica",
+  "zdj7": "księżyc z bliska",
+
+  "opis1": "Najmniejsza i najbliższa Słońca planeta Układu Słonecznego. Jako planeta dolna znajduje się dla ziemskiego obserwatora zawsze blisko Słońca, dlatego jest trudna do obserwacji. Mimo to należy do planet widocznych gołym okiem i była znana już w starożytności. Merkurego dojrzeć można jedynie tuż przed wschodem lub tuż po zachodzie Słońca. Ukształtowanie powierzchni Merkurego przypomina Księżyc: są na nim liczne kratery uderzeniowe i pozbawiony jest on atmosfery. Temperatura powierzchni waha się od −173 °C do 427 °C.",
+  "opis2": "Druga pod względem odległości od Słońca planeta Układu Słonecznego. Jest trzecim pod względem jasności ciałem niebieskim widocznym na niebie, po Słońcu i Księżycu. Jej obserwowana wielkość gwiazdowa sięga −4,6m. Ponieważ Wenus jest bliżej Słońca niż Ziemia, zawsze jest widoczna w niewielkiej odległości kątowej od niego, jej maksymalna elongacja to 47,8°C. Odległość Wenus od Ziemi zmienia się w zakresie od około 40 mln km do około 259 mln km.",
+  "opis3": "Trzecia, licząc od Słońca, oraz piąta pod względem wielkości planeta Układu Słonecznego. Pod względem średnicy, masy i gęstości jest to największa planeta skalista Układu Słonecznego. Planeta uformowała się około 4,54 mld lat temu. Ziemia jest jedynym znanym miejscem we Wszechświecie, w którym występuje życie, jest zamieszkana przez miliony gatunków, w tym przez człowieka. Życie pojawiło się w oceanach w ciągu pierwszego miliarda lat po uformowaniu się Ziemi.",
+  "opis4": "Czwarta od Słońca planeta Układu Słonecznego. Krąży między orbitą Ziemi a pasem planetoid, dzielącym go od orbity Jowisza. Planeta została nazwana od imienia rzymskiego boga wojny – Marsa, ze względu na barwę, która przy obserwacji z Ziemi wydaje się rdzawo-czerwona i kojarzyła się starożytnym Rzymianom z pożogą wojenną. Odcień ten bierze się od tlenków żelaza pokrywających powierzchnię.",
+  "opis5": "Gazowy olbrzym, największa planeta Układu Słonecznego. Piąta planeta w kolejności od Słońca. Masa Jowisza jest nieco mniejsza niż jedna tysięczna masy Słońca, a zarazem dwa i pół razy większa niż łączna masa pozostałych planet w Układzie Słonecznym. Wraz z Saturnem, Uranem i Neptunem tworzą grupę gazowych olbrzymów, nazywaną czasem również planetami jowiszowymi. Planetę znali astronomowie w czasach starożytnych, była związana z mitologią i wierzeniami religijnymi wielu kultur.",
+  "opis6": "Gazowy olbrzym, szósta od Słońca planeta Układu Słonecznego, druga po Jowiszu pod względem masy i wielkości. Charakterystyczną jego cechą są bardzo wyraźne pierścienie, składające się głównie z lodu i w mniejszej ilości z odłamków skalnych; inne planety-olbrzymy także mają systemy pierścieni, ale żaden z nich nie jest tak rozległy ani tak jasny. W maju 2023 roku znanych było 146 naturalnych satelitów Saturna, najwięcej wśród planet.",
+  "opis7": "Gazowy olbrzym, siódma od Słońca planeta Układu Słonecznego, trzecia pod względem wielkości i czwarta pod względem masy. Nazwa planety pochodzi od Uranosa, greckiego boga, uosobienia nieba, ojca Kronosa i dziada Zeusa. Choć jest widoczny gołym okiem podobnie jak pięć innych planet, umknął uwadze starożytnych obserwatorów z powodu małej jasności i powolnego ruchu po sferze niebieskiej.",
+  "opis8": "Gazowy olbrzym, ósma, najdalsza od Słońca planeta w Układzie Słonecznym, czwarta pod względem średnicy oraz trzecia pod względem masy. Neptun jest ponad 17 razy masywniejszy od Ziemi i masywniejszy od swojego 'bliźniaka' Urana, który ma masę prawie 15 razy większą od masy Ziemi. Krąży wokół Słońca w odległości około 30 razy większej niż dystans Ziemia-Słońce. Nazwa pochodzi od rzymskiego boga mórz Neptuna. Jego symbol astronomiczny to, stylizowany trójząb Neptuna.",
+
+  "info": "Ta strona wykorzystuje pliki cookies. Korzystając z niej, zgadzasz się na ich użycie.",
+  "przycisk": "Akceptuj"
+
+}
+		
